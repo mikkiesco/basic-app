@@ -16,10 +16,12 @@
             <hr>
         @endforeach
         <form action="/logout" method="post">
+            {{ csrf_field() }}
             <button type="submit">Logout</button>
         </form>
     @else
         <form action="/" method="post">
+            {{ csrf_field() }}
             <input type="text" placeholder="Username">
             <input type="password" placeholder="Password">
             <button type="submit">Login</button>
