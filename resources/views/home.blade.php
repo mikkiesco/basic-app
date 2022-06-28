@@ -22,8 +22,8 @@
     @else
         <form action="/" method="post">
             {{ csrf_field() }}
-            <input type="text" placeholder="Username">
-            <input type="password" placeholder="Password">
+            <input type="text" name="username" placeholder="Username">
+            <input type="password" name="password" placeholder="Password">
             <button type="submit">Login</button>
         </form>
     @endif
