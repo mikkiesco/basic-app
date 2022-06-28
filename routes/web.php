@@ -15,3 +15,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [App\Http\Controllers\PageController::class, 'home']);
 Route::post('/', [App\Http\Controllers\AuthController::class, 'attempt']);
+Route::post('/logout', [App\Http\Controllers\AuthController::class, 'logout']);

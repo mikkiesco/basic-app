@@ -15,6 +15,9 @@
             <div>Company: {{ $user->company->name }}</div>
             <hr>
         @endforeach
+        <form action="/logout" method="post">
+            <button type="submit">Logout</button>
+        </form>
     @else
         <form action="/" method="post">
             <input type="text" placeholder="Username">
