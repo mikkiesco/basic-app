@@ -1,3 +1,5 @@
+Github Repo: https://github.com/mikkiesco/basic-app
+
 To deploy please refer to https://laravel.com/docs/9.x/deployment
 
 Then run
